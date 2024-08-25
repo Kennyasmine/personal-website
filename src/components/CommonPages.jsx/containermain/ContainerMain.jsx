@@ -11,7 +11,7 @@ function ContainerMain() {
                 <h1>Hi, I am Waliyat,</h1>
                 <h1>Creative Technologist</h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, perspiciatis inventore. Reprehenderit soluta quasi optio.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ratione sunt ea deleniti minima quia.    
                 </p>
                 <p className="resume">Download Resume</p>
             </div>
