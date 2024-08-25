@@ -2,6 +2,7 @@
     padding: 40px;
     max-width: 800px;
     margin: 0 auto;
+    margin-top: 50px;
 }
 .formContainer h2 {
     font-size: 1.5rem;
@@ -54,6 +55,7 @@ button {
     .formContainer {
         padding: 20px;
         max-width: 100%;
+        margin-top: 180px;
     }
     .formContainer h2 {
         font-size: 1.2rem;

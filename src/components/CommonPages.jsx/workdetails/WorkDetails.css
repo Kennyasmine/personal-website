@@ -53,7 +53,7 @@
 @media screen and (max-width: 480px) {
     .blogPostContainer {
         padding: 20px 10px;
-        margin-top: 30px;
+        margin-top: 180px;
     }
     .postTitle {
         font-size: 1.5rem;
