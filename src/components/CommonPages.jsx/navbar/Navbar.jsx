@@ -4,18 +4,28 @@ import { useState } from "react"
 
 
 function Navbar() {
+
+    // const menu = "https://t3.ftcdn.net/jpg/01/66/66/56/240_F_166665616_guHEOd6zztex1rqNXoVzW2tNxIclPJpw.jpg"
     const [menuOpen, setMenuOpen] = useState(false)
+
+    const handleMenuClick = () => {
+        setMenuOpen(!menuOpen);
+        if (!menuOpen) {
+            document.body.classList.add("nav-open");
+        } else {
+            document.body.classList.remove("nav-open");
+        }
+    };
     return (
         <div>
             <nav>
                 <Link to='/' className="title"></Link>
-                <div className="menu" onClick={() => {
-                    console.log("Menu Clicked")
-                    setMenuOpen(!menuOpen)
-                }}>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                <div className="menu" onClick={handleMenuClick}>
+                    <span className={menuOpen ? "hide" : ""}></span>
+                    <span className={menuOpen ? "hide" : ""}></span>
+                    <span className={menuOpen ? "hide" : ""}></span>
+                    <span className={menuOpen ? "menuClose" : "hide"}>X</span>
+                    {/* <img src={menu} alt="menu" /> */}
                 </div>
                 <ul className={menuOpen ? "open" : ""}>
                     <li>
