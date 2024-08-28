@@ -16,6 +16,13 @@ function Navbar() {
             document.body.classList.remove("nav-open");
         }
     };
+
+    const handleLinkClick = () => {
+        setMenuOpen(false); 
+        document.body.classList.remove("nav-open"); 
+    };
+
+
     return (
         <div>
             <nav>
@@ -29,13 +36,13 @@ function Navbar() {
                 </div>
                 <ul className={menuOpen ? "open" : ""}>
                     <li>
-                        <NavLink to="Blog" className={({isActive}) => (isActive ? "active" : "")}>Blog</NavLink>
+                        <NavLink to="Blog" className={({isActive}) => (isActive ? "active" : "")} onClick={handleLinkClick}>Blog</NavLink>
                     </li>
                     <li>
-                        <NavLink to="Work" className={({isActive}) => (isActive ? "active" : "")}>Works</NavLink>
+                        <NavLink to="Work" className={({isActive}) => (isActive ? "active" : "")} onClick={handleLinkClick}>Works</NavLink>
                     </li>
                     <li>
-                        <NavLink to="Contact" className={({isActive}) => (isActive ? "active" : "")}>Contact</NavLink>
+                        <NavLink to="Contact" className={({isActive}) => (isActive ? "active" : "")} onClick={handleLinkClick}>Contact</NavLink>
                     </li>
                 </ul>
             </nav>

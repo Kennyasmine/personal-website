@@ -1,9 +1,10 @@
 import "./FeaturePage.css"
+import dashboard from '../../../assets/Rectangle 30.png';
+import portrait from '../../../assets/Rectangle 32.png';
+import malaylam from '../../../assets/Rectangle 34.png';
 
 function FeaturePage() {
-    const dashboard = "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2ViJTIwZGV2ZWxvcG1lbnQlMjBkYXNoYm9hcmR8ZW58MHx8MHx8fDA%3D"
-    const portrait = "https://media.istockphoto.com/id/1479691532/photo/human-hands-holding-mobile-phone-with-hypnotic-screen-many-social-media-likes-popularity-and.webp?b=1&s=612x612&w=0&k=20&c=uwLgOhDgbzAsepdCijjD6TDLVc1qlDTVHq3WCMXLNrg="
-    const malaylam = "https://media.istockphoto.com/id/1495819409/photo/digital-mind-brain-artificial-intelligence-concept.webp?b=1&s=612x612&w=0&k=20&c=1DEuZtQVuh5QSaGF97XdtdyrC8e-QxqYX9wthlIDVUo="
+    
     return (
         <div className="featureContainer">
             <h2>Feature works</h2>

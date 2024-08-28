@@ -1,12 +1,12 @@
 import Footer from "../footer/Footer"
 import "./WorkDetails.css"
+import design from '../../../assets/Rectangle 4@2x.png';
+import headboard from '../../../assets/Rectangle 5.png';
+import react from '../../../assets/Rectangle 6.png';
 
 
 function WorkDetails() {
-    const design = "https://media.istockphoto.com/id/1488294044/photo/businessman-works-on-laptop-showing-business-analytics-dashboard-with-charts-metrics-and-kpi.webp?b=1&s=612x612&w=0&k=20&c=9mHYdWeiReHhmicdUf5FH2JICVPk3Uiks3MIn1Fkaz8="
-    const headboard = "https://media.istockphoto.com/id/1488294036/photo/businessman-using-tablet-analyze-sales-data-and-economic-growth-graph-chart-and-report-with.webp?b=1&s=612x612&w=0&k=20&c=A-YiLN4KVq8NcFj8PCvXR3T-2HpDnGEDRUPe9_lzHP4="
-    const react = "https://images.unsplash.com/photo-1485856407642-7f9ba0268b51?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZ3JhbW1pbmclMjByZWFjdHxlbnwwfHwwfHx8MA%3D%3D"
-
+    
     return (
         <div className="blogPostContainer">
         <h1 className="postTitle">Designing Dashboards with usability in mind</h1>

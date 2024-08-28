@@ -2,18 +2,16 @@ import { Route, Routes } from "react-router-dom"
 import { NavLink } from "react-router-dom"
 import FeaturePage from "../featurepage/FeaturePage"
 import Footer from "../footer/Footer"
+import component from '../../../assets/Rectangle 40.png';
 import "./Work.css"
 // import WorkDetails from "../workdetails/WorkDetails"
 
 function Work() {
 
-    const component = "https://images.unsplash.com/photo-1532188363366-3a1b2ac4a338?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNvbXBvbmVudHN8ZW58MHx8MHx8fDA%3D"
-    
-
     return (
         <div className="featureContainer">
-            <FeaturePage />
             <NavLink className="details" to="details">
+                <FeaturePage />
                 <div className="featureWorks">
                     <img src={component} alt="" className="workImage"/>
                     <div className="workDetails">

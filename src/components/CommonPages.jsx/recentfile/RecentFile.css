@@ -81,8 +81,14 @@
         margin-right: 10px;
     }
     .postMeta {
-        flex-direction: row;
-        gap: 5px;
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        flex-direction: row !important;
+        gap: 5px !important;
+        align-items: center !important; 
+        font-size: 1rem !important;
+        color: #6b7280 !important;
+        margin-bottom: 15px !important;
     }
     .postMeta span {
         display: block;
