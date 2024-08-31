@@ -2,7 +2,7 @@ import "./FeaturePage.css"
 import dashboard from '../../../assets/Rectangle 30.png';
 import portrait from '../../../assets/Rectangle 32.png';
 import malaylam from '../../../assets/Rectangle 34.png';
-import FeatureWork from "../FeatureWork/FeatureWork";
+import FeatureWork from "./featureworks/FeatureWork";
 
 function FeaturePage() {
     const works = [

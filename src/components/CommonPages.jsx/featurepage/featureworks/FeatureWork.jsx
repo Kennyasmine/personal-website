@@ -14,4 +14,4 @@ function FeatureWork({ image, title, year, category, description }) {
     );
   }
   
-  export default FeatureWork;
+export default FeatureWork;
