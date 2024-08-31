@@ -1,4 +1,8 @@
-# React + Vite
+# Portfolio UI
+
+# Live Link: https://portfolio-ui-ysj0.onrender.com/
+
+# Figma Link: https://www.figma.com/design/gKZoWoleFgP35xvYu83Y2l/Portfolio-UI---Web-%26-Mobile
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
